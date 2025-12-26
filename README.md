@@ -1,16 +1,16 @@
-# PubChmAPI Library
+# PubChmAPIQ Library
 
 ## Overview
 
 ### Introduction
 
-The **PubChmAPI** Python package simplifies interaction with the PubChem database via the PUG-REST API. Unlike traditional wrappers with hard-coded functions, PubChmAPI uses dynamic metaprogramming to generate endpoints, ensuring full coverage of the PubChem schema. It handles URL generation, automatic batching, and throttling to provide a seamless data retrieval experience.
+The **PubChmAPIQ** Python package simplifies interaction with the PubChem database via the PUG-REST API. Unlike traditional wrappers with hard-coded functions, PubChmAPI uses dynamic metaprogramming to generate endpoints, ensuring full coverage of the PubChem schema. It handles URL generation, automatic batching, and throttling to provide a seamless data retrieval experience.
 
 ---
 
 ## Naming Convention
 
-Functions in **PubChmAPI** follow a strict semantic naming convention to eliminate ambiguity:
+Functions in **PubChmAPIQ** follow a strict semantic naming convention to eliminate ambiguity:
 
 `domain_identifier_get_operation_option`
 
