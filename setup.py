@@ -24,12 +24,21 @@ classifiers = [
 ]
 
 setup(
+<<<<<<< HEAD
     name='PubChemAPIQ',
     version='0.0.2',  # Increment version for each upload
     description='Simplifies interaction with the PubChem database via PUG-REST API.',
     long_description=long_desc,
     long_description_content_type='text/markdown',
     url='https://github.com/ahmed1212212/PubChemAPIQ',
+=======
+    name='PubChmAPI',
+    version='0.0.48',  # Increment version for each upload
+    description='Simplifies interaction with the PubChem database via PUG-REST API.',
+    long_description=long_desc,
+    long_description_content_type='text/markdown',
+    url='https://github.com/ahmed1212212/PubChmAPI',
+>>>>>>> origin/main
     author='Ahmed Alhilal',
     author_email='aalhilal@kfu.edu.sa',
     license='MIT',
@@ -40,8 +49,13 @@ setup(
         'requests>=2.25.0'
     ],
     project_urls={
+<<<<<<< HEAD
         'Source': 'https://github.com/ahmed1212212/PubChemAPIQ',
         'Tracker': 'https://github.com/ahmed1212212/PubChemAPIQ/issues',
+=======
+        'Source': 'https://github.com/ahmed1212212/PubChmAPI',
+        'Tracker': 'https://github.com/ahmed1212212/PubChmAPI/issues',
+>>>>>>> origin/main
     },
     python_requires='>=3.7',
 )

@@ -1,3 +1,41 @@
+Metadata-Version: 2.4
+Name: PubChmAPI
+Version: 0.0.48
+Summary: Simplifies interaction with the PubChem database via PUG-REST API.
+Home-page: https://github.com/ahmed1212212/PubChmAPI
+Author: Ahmed Alhilal
+Author-email: aalhilal@kfu.edu.sa
+License: MIT
+Project-URL: Source, https://github.com/ahmed1212212/PubChmAPI
+Project-URL: Tracker, https://github.com/ahmed1212212/PubChmAPI/issues
+Keywords: cheminformatics pubchem api biology chemistry drug-discovery
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: requests>=2.25.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # PubChmAPI Library
 
 ## Overview
@@ -51,11 +89,7 @@ def test_pubchmapi():
     print("Title:", compound_name_get_Title(compound))
     print("Molecular Formula:", compound_name_get_MolecularFormula(compound))
     print("Molecular Weight:", compound_name_get_MolecularWeight(compound))
-<<<<<<< HEAD
-    print("Canonical SMILES:", compound_name_get_SMILES(compound))
-=======
     print("Canonical SMILES:", compound_name_get_CanonicalSMILES(compound))
->>>>>>> origin/main
     print("InChI:", compound_name_get_InChI(compound))
     print("InChIKey:", compound_name_get_InChIKey(compound))
     print("IUPAC Name:", compound_name_get_IUPACName(compound))
@@ -353,3 +387,10 @@ print(f"Active CIDs ({len(active_cids)}): {active_cids[:5] if active_cids else '
 # Total AIDs: 6329 | First AID: 1433
 # Active CIDs (38): ['135398510', '3038522', '5329102', '24867231', '11485656']
 ```
+
+Ahmed Alhilal
+=============
+
+0.0.42 (12/12/2025)
+-------------------
+- First Release
